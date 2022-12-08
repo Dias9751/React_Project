@@ -1,11 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Like from "./Like";
 function Home(props) {
+
+
+
+
   return (
     <div className="home">
       <Link to="/about" style={{ textDecoration:'none', color:'black'}}>
       <div class="container">
+        
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
             <img
@@ -15,6 +20,7 @@ function Home(props) {
             />
             <p>Description: just discriptions</p>
             <p>Rating: 3.8</p>
+            <Like/>
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
               src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Glovo_logo.png"
@@ -22,6 +28,7 @@ function Home(props) {
             />
             <p>Description: just discriptions</p>
             <p>Rating: 3.8</p>
+            <Like/>
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
               src="https://pngimg.com/uploads/yandex/yandex_PNG14.png"
@@ -29,6 +36,7 @@ function Home(props) {
             />
             <p>Description: just discriptions</p>
             <p>Rating: 3.8</p>
+            <Like/>
             <br/><br/><br/>
           </div>
           <div class="col-lg-5">

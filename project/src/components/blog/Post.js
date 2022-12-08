@@ -4,7 +4,6 @@ function Posts() {
   return (
     <div className="home">
       <div class="container">
-        
           <div class="row align-items-center my-5">
             <div class="col-lg-7">
                 <h1 className="mt-5">Details of order</h1>

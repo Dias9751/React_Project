@@ -1,13 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Like from "./Like";
+import Ccomponent from "./Ccomponent";
+import Contextp from "./Contextp";
+//import Drinks from "./Drinks";
 
 function Contact() {
+
+
+
+
   return (
+
     <div className="contact">
-      <Link to="/blog" style={{ textDecoration:'none', color:'black'}}>
       <div class="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
+            <Contextp/>
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
               src="https://www.pngplay.com/wp-content/uploads/12/Apple-Juice-No-Background.png"
@@ -15,6 +24,10 @@ function Contact() {
             />
             <p>Description: just discriptions</p>
             <p>Rating: 3.8</p>
+            <Like/>
+            
+            
+        
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
               src="https://free-png.ru/wp-content/uploads/2022/04/free-png.ru-388.png"
@@ -23,6 +36,8 @@ function Contact() {
             />
             <p>Description: just discriptions</p>
             <p>Rating: 3.8</p>
+            <Like/>
+            
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
               src="https://free-png.ru/wp-content/uploads/2021/05/free-png.ru-254.png"
@@ -31,6 +46,7 @@ function Contact() {
             />
             <p>Description: just discriptions</p>
             <p>Rating: 3.8</p>
+            <Like/>
             <br/><br/><br/>
           </div>
           <div class="col-lg-5">
@@ -68,12 +84,19 @@ function Contact() {
               alt=""
               style={{height:'200px'}}
             />
-          </div>
+            <Ccomponent name='Piaz'/>
+            <br/><br/><br/><br/><br/><h2>{new Date().toLocaleTimeString(navigator.language, {hour: '2-digit', minute:'2-digit'})}</h2>
+        </div>
         </div>
       </div>
+      <Link to="/blog" style={{ textDecoration:'none', color:'black'}}>
+  
       </Link>
+      
+      
     </div>
+  
+
   );
 }
-
 export default Contact;

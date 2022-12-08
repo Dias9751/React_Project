@@ -1,27 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
-function About() {
-
+function Contact() {
   return (
-  
-    <div className="about">
-     
-    <Link to="/contact" style={{ textDecoration:'none', color:'black'}}>
+    <div className="contact">
+      <Link to="/blog" style={{ textDecoration:'none', color:'black'}}>
       <div class="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="https://free-png.ru/wp-content/uploads/2022/02/free-png.ru-553.png"
+              src="https://www.pngplay.com/wp-content/uploads/12/Apple-Juice-No-Background.png"
               alt=""
             />
             <p>Description: just discriptions</p>
             <p>Rating: 3.8</p>
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="https://free-png.ru/wp-content/uploads/2022/02/free-png.ru-549.png"
+              src="https://free-png.ru/wp-content/uploads/2022/04/free-png.ru-388.png"
               alt=""
               style={{height:'300px'}}
             />
@@ -29,7 +25,7 @@ function About() {
             <p>Rating: 3.8</p>
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="https://pngimg.com/uploads/burger_king/burger_king_PNG9.png"
+              src="https://free-png.ru/wp-content/uploads/2021/05/free-png.ru-254.png"
               alt=""
               style={{height:'300px'}}
             />
@@ -38,7 +34,7 @@ function About() {
             <br/><br/><br/>
           </div>
           <div class="col-lg-5">
-            <h1 class="font-weight-light">Restaurants</h1>
+            <h1 class="font-weight-light">Menu</h1>
             <p>
             Вкусная еда с доставкой, заказывайте по ссылке блюдо которое 
             вам по душе. Еда на любой вкус. Бургеры, пицца, сендвичи, супы, 
@@ -46,7 +42,7 @@ function About() {
             </p>
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="https://pngimg.com/uploads/kfc_food/kfc_food_PNG2.png"
+              src="https://www.pngmart.com/files/12/Fried-Chicken-Wings-PNG-Free-Download.png"
               alt=""
               style={{height:'200px'}}
             />
@@ -57,7 +53,7 @@ function About() {
             </p>
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="https://png.monster/wp-content/uploads/2022/07/png.monster-21.png"
+              src="https://pngicon.ru/file/uploads/picca.png"
               alt=""
               style={{height:'200px'}}
             />
@@ -68,20 +64,16 @@ function About() {
             </p>
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="https://abrakadabra.fun/uploads/posts/2022-02/1643701145_8-abrakadabra-fun-p-burger-bez-fona-21.png"
+              src="https://free-png.ru/wp-content/uploads/2022/04/free-png.ru-436.png"
               alt=""
               style={{height:'200px'}}
             />
-            <br/><br/><br/><br/><br/>
           </div>
         </div>
       </div>
-    </Link>
+      </Link>
     </div>
-    
-    
   );
 }
 
-
-export default About;
+export default Contact;

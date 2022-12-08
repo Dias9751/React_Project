@@ -1,13 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-
+ 
 function About() {
 
   return (
-  
     <div className="about">
-     
     <Link to="/contact" style={{ textDecoration:'none', color:'black'}}>
       <div class="container">
         <div class="row align-items-center my-5">
@@ -78,8 +75,6 @@ function About() {
       </div>
     </Link>
     </div>
-    
-    
   );
 }
 

@@ -1,3 +1,11 @@
+Description of Project:
+
+
+Our site is intended for viewing the food catalog and for ordering food from papular deliveries.
+After successful authorization,
+you can view the catalog of food and drinks, like the food you like, select the food delivery service, then click on the food to go to the form to fill in the data.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

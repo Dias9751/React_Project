@@ -6,8 +6,8 @@ function Footer() {
       <footer class="py-5 bg-dark fixed-bottom">
         <div class="container">
           <p class="m-0 text-center text-white">
-            React project for getting max points
-          </p> 
+            Altynbek & Dias's Website
+          </p>
         </div>
       </footer>
     </div>

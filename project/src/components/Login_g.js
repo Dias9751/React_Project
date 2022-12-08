@@ -83,6 +83,7 @@ function Login() {
             </NavLink>
             <div>
               <ul className="navbar-nav ml-auto">
+                
                 <li className="nav-item">
                   <NavLink className="nav-link" to="/home">
                     Delivery Company                  <span className="sr-only">(current)</span>
@@ -96,11 +97,6 @@ function Login() {
                 <li className="nav-item">
                   <NavLink className="nav-link" to="/contact">
                     Menu
-                  </NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink className="nav-link" to="/drinks">
-                    Alcohol                <span className="sr-only">(current)</span>
                   </NavLink>
                 </li>
                 <li className="nav-item">
